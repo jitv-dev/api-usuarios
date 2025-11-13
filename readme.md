@@ -62,7 +62,7 @@ Disponible en:
 
 ### 1. Registro de Usuario
 
-**POST /api/register**\
+**POST /api/register**
 
 Body:
 
@@ -74,7 +74,7 @@ Body:
 
 ### 2. Login
 
-**POST /api/login**\
+**POST /api/login**
 
 Body:
 
@@ -99,8 +99,9 @@ Respuesta:
 
 ### 4. Actualizar Usuario
 
-**PUT /api/usuarios/:id**\
-Campos permitidos: nombre, email y password\
+**PUT /api/usuarios/:id**
+
+Campos permitidos: nombre, email y password
 
 Body:
 
@@ -130,7 +131,7 @@ Máximo: 5MB
 -   401: No autorizado
 -   403: Prohibido
 -   404: No encontrado
--   413: Archivo grande
+-   413: Archivo demasiado grande
 -   500: Error servidor
 
 ## Notas Importantes
