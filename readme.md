@@ -97,7 +97,7 @@ Respuesta:
 
 ### 4. Actualizar Usuario
 
-**PUT /api/usuarios/:id**
+**PUT /api/usuarios/:id**\
 Campos permitidos: nombre, email y password\
 Body:
 
@@ -115,6 +115,7 @@ Body:
 
 **POST /api/usuarios/:id/imagen**
 
+Adjuntar imagen en el body como form-data
 Formatos permitidos: JPG, JPEG, PNG\
 Máximo: 5MB
 
