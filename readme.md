@@ -115,7 +115,7 @@ Body:
 
 **POST /api/usuarios/:id/imagen**
 
-Formatos permitidos: JPG, JPEG, PNG
+Formatos permitidos: JPG, JPEG, PNG\
 Máximo: 5MB
 
 ## Códigos de Estado
@@ -140,7 +140,7 @@ Máximo: 5MB
 
 ## Solución de Problemas
 
-**Token inválido:** Revisar header Authorization.\
-**No autorizado:** ID del token no coincide con el de la ruta.\
-**Imagen no permitida:** Solo jpg, jpeg, png.\
-**Archivo grande:** Máximo 5MB.
+-   **Token inválido:** Revisar header Authorization.
+-   **No autorizado:** ID del token no coincide con el de la ruta.
+-   **Imagen no permitida:** Solo jpg, jpeg, png.
+-   **Archivo grande:** Máximo 5MB.
