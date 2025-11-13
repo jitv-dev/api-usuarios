@@ -63,6 +63,7 @@ Disponible en:
 ### 1. Registro de Usuario
 
 **POST /api/register**\
+
 Body:
 
     {
@@ -74,6 +75,7 @@ Body:
 ### 2. Login
 
 **POST /api/login**\
+
 Body:
 
     {
@@ -99,6 +101,7 @@ Respuesta:
 
 **PUT /api/usuarios/:id**\
 Campos permitidos: nombre, email y password\
+
 Body:
 
     {
@@ -115,7 +118,7 @@ Body:
 
 **POST /api/usuarios/:id/imagen**
 
-Adjuntar imagen en el body como form-data
+Adjuntar imagen en el body como form-data\
 Formatos permitidos: JPG, JPEG, PNG\
 Máximo: 5MB
 
