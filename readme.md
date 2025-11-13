@@ -46,6 +46,7 @@ Instalar dependencias:
 Crear archivo `.env`:
 
     SECRET_KEY=tu_clave_secreta
+    JWT_EXPIRES_IN=1h
 
 ## Ejecución
 
@@ -61,7 +62,7 @@ Disponible en:
 
 ### 1. Registro de Usuario
 
-**POST /api/register**
+**POST /api/register**\
 Body:
 
     {
@@ -72,7 +73,7 @@ Body:
 
 ### 2. Login
 
-**POST /api/login**
+**POST /api/login**\
 Body:
 
     {
@@ -97,7 +98,7 @@ Respuesta:
 ### 4. Actualizar Usuario
 
 **PUT /api/usuarios/:id**
-Campos permitidos: nombre, email y password
+Campos permitidos: nombre, email y password\
 Body:
 
     {
@@ -139,7 +140,7 @@ Máximo: 5MB
 
 ## Solución de Problemas
 
-**Token inválido:** Revisar header Authorization.
-**No autorizado:** ID del token no coincide con el de la ruta.
-**Imagen no permitida:** Solo jpg, jpeg, png.
+**Token inválido:** Revisar header Authorization.\
+**No autorizado:** ID del token no coincide con el de la ruta.\
+**Imagen no permitida:** Solo jpg, jpeg, png.\
 **Archivo grande:** Máximo 5MB.
